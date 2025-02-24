@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+    height: 100%;
+    font-family: monospace;
+    font-size: large;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+}
+
+.container{
+    color: white;
+    text-align: center;
+    width: 300px;
+    justify-self: center;
+}
+
+.buff{
+    color: green;
+}
+
+.nerf{
+    color: red;
+}
+
+.copy{
+    color: gray;
+    justify-self: center;
+    user-select: none;
+}
+
+.copy__img{
+    width: 3rem;
+    display: grid;
+    justify-self: center;
+}
