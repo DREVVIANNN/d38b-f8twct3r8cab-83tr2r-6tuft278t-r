@@ -1,43 +1,54 @@
 body{
-    background-color: lightblue;
-    height: 100%;
     font-family: monospace;
-    font-size: large;
+    font-size: 16px;
 }
 
-h1{
-    color: white;
-    text-align: center;
-    font-size: 2em;
-    font-weight: bolder;
-}
-h2{
+h2,
+.paragraph,
+.info{
     text-align: center;
 }
 
-p{
-    width: 300px;
-    color: white;
-    text-align: center;
-    justify-self: center;
-}
-
-.buff{
-    color: green;
-}
-
-.nerf{
-    color: red;
-}
-
-.copy{
-    color: gray;
-    text-align: center;
-    user-select: none;
-}
-
-.copy__img{
-    width: 3rem;
+.join{
+    position: relative;
+    justify-content: center;
     display: grid;
     justify-self: center;
+    padding: 8px 8px 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px black;
+    cursor: pointer;
+}
+
+.container{
+    position: relative;
+    justify-self: center;
+    justify-content: center;
+    display: grid;
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    padding: 5px 5px 8px;
+    justify-content: center;
+    justify-self: center;
+    display: grid;
+    cursor: pointer;
+    border: none;
+    transition: 3s;
+}
+.btn:hover{
+    background-color: green;
+    box-shadow: 4px 8px 10px black;
+    transition: 3s;
+}
+
+.login-text{
+    text-align: center;
 }
